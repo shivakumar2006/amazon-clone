@@ -4,11 +4,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faAws } from '@fortawesome/free-brands-svg-icons';
+import { faCircleUser } from '@fortawesome/free-solid-svg-icons';
 
 const SideMenu = ({ isOpen, isClose }) => {
     return (
         <>
             <div className={`sidebar ${isOpen ? "open" : ""}`}>
+                <div className='user'>
+                    <FontAwesomeIcon icon={faCircleUser} style={{fontSize: '40px'}} /><p className='user-line'>Hello, Sign in.</p>
+                </div>
                 <button className='close-button' onClick={isClose}>
                     <FaTimes /> Close
                 </button>
