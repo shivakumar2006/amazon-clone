@@ -18,6 +18,9 @@ import clothes1 from '../assets/clothes1.jpg';
 import clothes2 from '../assets/clothes2.jpg'; 
 import clothes3 from '../assets/clothes3.jpg';
 import clothes4 from '../assets/clothes4.jpg';
+import makeup2 from '../assets/makeup2.jpg';
+import makeup3 from '../assets/makeup3.jpg';
+import makeup1 from '../assets/makeup1.jpg';
 
 const ShopSection = () => {
     return (
@@ -116,11 +119,17 @@ const ShopSection = () => {
                 <p className='para' style={{ marginTop: '18px', marginLeft: '20px' }}><Link>See more</Link></p>
             </div>
             <div className='box'>
-                <h2 style={{ marginTop: '15px', marginLeft: '20px'}}>Shop Valentine's Day gifts</h2>
-                <div className="box1_img">
-                    <img className='box1_img' src={heart} alt="photo" />
+                <h2 style={{ marginTop: '15px', marginLeft: '20px'}}>Makeup kits</h2>
+                <div className='multiple-box'>
+                    <div className="multiple-inner-box">
+                        <img className='img1' src={makeup3} alt="photo" />
+                        <img className='img1' src={makeup2} alt='photo' />
+                    </div>
+                    <div className='multiple-inner-second'>
+                        <img className='img2' src={makeup1} alt='photo' />
+                    </div>
                 </div>
-                <p className='para' style={{ marginTop: '18px', marginLeft: '20px'}}><Link>Shop Now</Link></p>
+                <p className='para' style={{ marginTop: '12px', marginLeft: '20px'}}><Link>Shop Now</Link></p>
             </div>
             <div className='box'>
                 <h2 style={{ marginTop: '15px', marginLeft: '20px'}}>Go with trends</h2>

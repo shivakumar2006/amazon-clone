@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Panel from './components/Panel';
 import Hero from './components/Hero';
 import ShopSection from './components/ShopSection';
+import Footer from './components/Footer';
 import './App.css';
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
             <Panel />
             <Hero />
             <ShopSection />
+            <Footer />
         </>
     )
 }
