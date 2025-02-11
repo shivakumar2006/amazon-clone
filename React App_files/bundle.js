@@ -843,7 +843,7 @@ const ShopSection = () => {
         children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("img", {
           className: "box1_img",
           src: _assets_pencil_jpg__WEBPACK_IMPORTED_MODULE_1__,
-          alt: "photo"
+          alt: "product"
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 11,

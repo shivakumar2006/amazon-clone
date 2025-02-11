@@ -29,28 +29,28 @@ const ShopSection = () => {
             <div className='box1 box'>
                 <h2 style={{ marginTop: '15px', marginLeft: '20px' }}>New year, new supplies</h2>
                 <div className="box1_img">
-                    <img className="box1_img" src={pencil} alt="photo" />
+                    <img className="box1_img" src={pencil} alt="" />
                 </div>
                 <p className='para' style={{ marginTop: '18px', marginLeft: '20px' }}><Link>See more</Link></p>
             </div>
             <div className='box'>
                 <h2 style={{ marginTop: '15px', marginLeft: '20px'}}>Shop Valentine's Day gifts</h2>
                 <div className="box1_img">
-                    <img className='box1_img' src={heart} alt="photo" />
+                    <img className='box1_img' src={heart} alt="product" />
                 </div>
                 <p className='para' style={{ marginTop: '18px', marginLeft: '20px'}}><Link>Shop Now</Link></p>
             </div>
             <div className='box'>
                 <h2 style={{ marginTop: '15px', marginLeft: '20px'}}>Get your game on</h2>
                 <div className="box1_img">
-                    <img className='box1_img' src={console} alt='photo' />
+                    <img className='box1_img' src={console} alt='product' />
                 </div>
                 <p className='para' style={{ marginTop: '18px', marginLeft: '20px'}}><Link>Shop gaming</Link></p>
             </div>
             <div className='box'>
                 <h2 style={{ marginTop: '15px', marginLeft: '20px'}}>Toys & more</h2>
                 <div className='box1_img'>
-                    <img className='box1_img' src={toys} alt='photo' />
+                    <img className='box1_img' src={toys} alt='product' />
                 </div>
                 <p className='para' style={{ marginTop: '18px', marginLeft: '20px'}}><Link>Shop Now</Link></p>
             </div>
@@ -60,28 +60,28 @@ const ShopSection = () => {
             <div className='box'>
                 <h2 style={{ marginTop: '15px', marginLeft: '20px'}}>Premium Furnitures</h2>
                 <div className='box1_img'>
-                    <img className='box1_img' src={furniture} alt='photo' />
+                    <img className='box1_img' src={furniture} alt='product' />
                     <p className='para' style={{ marginTop: '0px', marginLeft: '9px'}}><Link>See more</Link></p>
                 </div>
             </div>
             <div className='box'>
                 <h2 style={{ marginTop: '15px', marginLeft: '20px'}}>Lamps & more</h2>
                 <div className='box1_img'>
-                    <img className='box1_img' src={lamps} alt="photo" />
+                    <img className='box1_img' src={lamps} alt="product" />
                     <p className='para' style={{ marginTop: '0px', marginLeft: '9px'}}><Link>Shop lamps</Link></p>
                 </div>
             </div>
             <div className='box'>
                 <h2 style={{ marginTop: '15px', marginLeft: '20px'}}>Get Beautiful Paintings</h2>
                 <div className='box1_img'>
-                    <img className='box1_img' src={paintings} alt='photo' />
+                    <img className='box1_img' src={paintings} alt='product' />
                 </div>
                 <p className='para' style={{ marginTop: '18px', marginLeft: '20px'}}><Link>Explore more</Link></p>
             </div>
             <div className='box'>
                 <h2 style={{ marginTop: '15px', marginLeft: '20px'}}>Buy your skin care</h2>
                 <div className='box1_img'>
-                    <img className='box1_img' src={skinCare} alt='photo' />
+                    <img className='box1_img' src={skinCare} alt='product' />
                 </div>
                 <p className='para' style={{ marginTop: '18px', marginLeft: '20px'}}><Link>Explore your favourites</Link></p>
             </div>
@@ -92,19 +92,19 @@ const ShopSection = () => {
                 <h2 style={{marginTop: '20px', marginLeft: '10px'}}>Best Electronics items</h2>
                 <div className='banner-outer-box'>
                     <div className='banner-inner-box'>
-                        <img className='banner-img' src={phone} alt='photo' />
+                        <img className='banner-img' src={phone} alt='product' />
                     </div>
                     <div className='banner-inner-box'>
-                        <img className='banner-img' src={keyboard} alt='photo' />
+                        <img className='banner-img' src={keyboard} alt='product' />
                     </div>
                     <div className='banner-inner-box'>
-                        <img className='banner-img' src={laptop1} alt='photo' />
+                        <img className='banner-img' src={laptop1} alt='product' />
                     </div>
                     <div className='banner-inner-box'>
-                        <img className='banner-img' src={laptop2} alt='photo' />
+                        <img className='banner-img' src={laptop2} alt='product' />
                     </div>
                     <div className='banner-inner-box'>
-                        <img className='banner-img' src={headphone} alt='photo' />
+                        <img className='banner-img' src={headphone} alt='product' />
                     </div>
                 </div>
             </div>
@@ -114,7 +114,7 @@ const ShopSection = () => {
             <div className='box1 box'>
                 <h2 style={{ marginTop: '15px', marginLeft: '20px' }}>New year, new supplies</h2>
                 <div className="box1_img">
-                    <img className="box1_img" src={pencil} alt="photo" />
+                    <img className="box1_img" src={pencil} alt="product" />
                 </div>
                 <p className='para' style={{ marginTop: '18px', marginLeft: '20px' }}><Link>See more</Link></p>
             </div>
@@ -122,11 +122,11 @@ const ShopSection = () => {
                 <h2 style={{ marginTop: '15px', marginLeft: '20px'}}>Makeup kits</h2>
                 <div className='multiple-box'>
                     <div className="multiple-inner-box">
-                        <img className='img1' src={makeup3} alt="photo" />
-                        <img className='img1' src={makeup2} alt='photo' />
+                        <img className='img1' src={makeup3} alt="product" />
+                        <img className='img1' src={makeup2} alt='product' />
                     </div>
                     <div className='multiple-inner-second'>
-                        <img className='img2' src={makeup1} alt='photo' />
+                        <img className='img2' src={makeup1} alt='product' />
                     </div>
                 </div>
                 <p className='para' style={{ marginTop: '12px', marginLeft: '20px'}}><Link>Shop Now</Link></p>
@@ -135,12 +135,12 @@ const ShopSection = () => {
                 <h2 style={{ marginTop: '15px', marginLeft: '20px'}}>Go with trends</h2>
                 <div className="multiple-box">
                     <div className='multiple-inner-box'>
-                    <img className='img1' src={clothes1} alt='photo' />
-                    <img className='img1' src={clothes2} alt='photo' />
+                    <img className='img1' src={clothes1} alt='product' />
+                    <img className='img1' src={clothes2} alt='product' />
                     </div>
                     <div className='multiple-inner-box'>
-                    <img className='img1' src={clothes3} alt='photo' />
-                    <img className='img1' src={clothes4} alt='photo' />
+                    <img className='img1' src={clothes3} alt='product' />
+                    <img className='img1' src={clothes4} alt='product' />
                     </div>
                 </div>
                 <p className='para' style={{ marginTop: '10px', marginLeft: '16px'}}><Link>Shop clothes</Link></p>
@@ -148,7 +148,7 @@ const ShopSection = () => {
             <div className='box'>
                 <h2 style={{ marginTop: '15px', marginLeft: '20px'}}>Buy Mirrors</h2>
                 <div className='box1_img'>
-                    <img className='box1_img' src={mirror} alt='photo' />
+                    <img className='box1_img' src={mirror} alt='product' />
                 </div>
                 <p className='para' style={{ margin: '20px'}}><Link>Shop Now</Link></p>
             </div>
