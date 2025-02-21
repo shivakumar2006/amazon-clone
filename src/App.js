@@ -12,8 +12,8 @@ const App = () => {
         <>
             <Navbar />
             <Panel />
-            <Hero />
             <Suspense fallback={<div>Loading...</div>}>
+            <Hero />
             <ShopSection />
             </Suspense>
             <Footer />
