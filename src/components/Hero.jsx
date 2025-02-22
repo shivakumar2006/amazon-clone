@@ -26,7 +26,7 @@ const Hero = () => {
         <>
         <div className='hero-container'>
             {images.map((img, index) => (
-                <img 
+                <img
                     key={index}
                     src={img}
                     alt="Amazon Hero"
@@ -34,7 +34,7 @@ const Hero = () => {
                 />
             ))}
             <div className='hero-message'>
-                <p>You are on Amazon.com. You can also shop on Amazon India for Millions of products with fast local delivery.<Link>Click here to go to amazon.in</Link></p>
+                <p>You are on Amazon.com. You can also shop on Amazon India for Millions of products with fast local delivery.<Link to="https://www.amazon.in/">Click here to go to amazon.in</Link></p>
             </div>
         </div>
         </>
