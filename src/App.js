@@ -1,22 +1,22 @@
 import React, { Suspense } from 'react'; 
-import Navbar from './components/Navbar';
-import Panel from './components/Panel';
-import Footer from './components/Footer';
 import './App.css';
 
 const ShopSection = React.lazy(() => import("./components/ShopSection"));
 const Hero = React.lazy(() => import("./components/Hero"));
+const Navbar = React.lazy(() => import ("./components/Navbar"));
+const Panel = React.lazy(() => import("./components/Panel"));
+const Footer = React.lazy(() => import("./components/Footer"));
 
 const App = () => {
     return (
         <>
-            <Navbar />
-            <Panel />
             <Suspense fallback={<div>Loading...</div>}>
-            <Hero />
-            <ShopSection />
+                <Navbar />
+                <Panel />
+                <Hero />
+                <ShopSection />
+                <Footer />
             </Suspense>
-            <Footer />
         </>
     )
 }
